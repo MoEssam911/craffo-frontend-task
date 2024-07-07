@@ -1,8 +1,11 @@
 {
+  "name": "craffo-frontend-task",
+  "scripts": {
+    "build": "npm run build:tailwind",
+    "build:tailwind": " tailwindcss -i ./src/input.css -o ./src/output.css build"
+  },
   "devDependencies": {
     "tailwindcss": "^3.4.4"
-  },
-  "dependencies": {
-    "swiper": "^11.1.4"
   }
+
 }
