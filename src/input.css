@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    letter-spacing: 2px;
+  }
+
+  .btn-primary {
+    @apply bg-[#f3ff34] text-black text-sm px-10 h-[52px] font-bold uppercase;
+  }
+
+}
